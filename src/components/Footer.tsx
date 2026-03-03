@@ -64,7 +64,7 @@ export const Footer = () => {
 
         </div>
 
-        {/* Bottom Copyright */}
+       
         <div className="border-t border-slate-200 mt-12 pt-6 text-center">
           <p className="text-slate-400 text-xs">
             © 2026 PetCare Management System. 
