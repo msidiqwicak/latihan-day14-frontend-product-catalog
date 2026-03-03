@@ -5,7 +5,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 export const Navbar = ({ onSearch }: { onSearch: (v: string) => void }) => {
   return (
     <nav className="flex items-center justify-between px-15 py-6 bg-[#6ea2b5] border-b-0 w-full">
-      {/* Logo */}
+     
       <div className="flex items-center gap-2 flex-shrink-0">
         <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center text-zinc-700">
           <PawPrint size={18} />
@@ -13,7 +13,7 @@ export const Navbar = ({ onSearch }: { onSearch: (v: string) => void }) => {
         <span className="font-bold text-lg text-slate-800">Pet Care</span>
       </div>
 
-      {/* Search */}
+     
       <div className="hidden md:flex flex-1 max-w-md mx-8 relative">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-4 h-4" />
         <Input
@@ -23,11 +23,11 @@ export const Navbar = ({ onSearch }: { onSearch: (v: string) => void }) => {
         />
       </div>
 
-      {/* Right Section */}
+     
       <div className="flex items-center gap-10 flex-shrink-0">
         <Bell className="text-slate-50 w-5 h-5 cursor-pointer" />
 
-        {/* Avatar Shadcn */}
+        
         <Avatar className="w-10 h-10 cursor-pointer border border-slate-200">
           <AvatarImage
             src="https://github.com/shadcn.png"

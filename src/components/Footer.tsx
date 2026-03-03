@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 py-14">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
 
-          {/* Brand Section */}
+          
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-[#6ea2b5] rounded-lg flex items-center justify-center text-white">
@@ -20,7 +20,6 @@ export const Footer = () => {
             </p>
           </div>
 
-          {/* Services */}
           <div>
             <h4 className="font-bold text-slate-900 mb-5">Services</h4>
             <ul className="space-y-3 text-slate-500 text-sm">
@@ -31,7 +30,7 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
+      
           <div>
             <h4 className="font-bold text-slate-900 mb-5">Contact</h4>
             <ul className="space-y-3 text-slate-500 text-sm">
@@ -50,7 +49,7 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Social */}
+         
           <div>
             <h4 className="font-bold text-slate-900 mb-5">Follow Us</h4>
             <div className="flex gap-4">

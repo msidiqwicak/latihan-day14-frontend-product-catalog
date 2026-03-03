@@ -16,7 +16,7 @@ export const Register = () => {
     <div className="min-h-screen flex items-center justify-center bg-white px-4">
       <Card className="w-full max-w-md shadow-lg border-0 bg-amber-50">
         
-        {/* Header */}
+       
         <CardHeader className="text-center space-y-4">
           <div className="flex justify-center">
             <div className="w-12 h-12 bg-[#6ea2b5] rounded-xl flex items-center justify-center text-white">
@@ -33,7 +33,7 @@ export const Register = () => {
           </CardDescription>
         </CardHeader>
 
-        {/* Form */}
+       
         <CardContent>
           <form>
             <div className="flex flex-col gap-5">
@@ -82,7 +82,7 @@ export const Register = () => {
           </form>
         </CardContent>
 
-        {/* Footer Buttons */}
+      
         <CardFooter className="flex flex-col gap-3">
           <Button className="w-full bg-[#6ea2b5] hover:bg-[#5b8fa1]">
             Create Account

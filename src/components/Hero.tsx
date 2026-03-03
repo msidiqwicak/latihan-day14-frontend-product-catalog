@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 export const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-amber-50 rounded-3xl p-8 md:p-12 mb-10 flex flex-col md:flex-row items-center gap-8">
-      {/* Konten Teks */}
+   
       <div className="flex-1 text-center md:text-left z-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 leading-tight">
           “Give <span className="text-[#6ea2b5]"> the Best Love and Care</span>{" "}
